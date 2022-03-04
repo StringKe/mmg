@@ -1,7 +1,7 @@
 {
   "name": "@stringke/mmg",
   "version": "1.0.0",
-  "description": "read prisma schema as json support comment",
+  "description": "parser prisma schema to json (supprt @comment)",
   "main": "index.js",
   "repository": "git@github.com:StringKe/mmg.git",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "@stringke/mmg",
+    "name": "mmg",
     "triples": {
       "defaults": true,
       "additional": [
