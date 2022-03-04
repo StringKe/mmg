@@ -12,6 +12,8 @@ use napi_derive::napi;
 static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
 #[napi]
-pub fn plus_100(input: u32) -> u32 {
-  input + 100
+pub fn parser(input: String) -> String {
+  let mut diagnostics = diagnostics::Diagnostics::new();
+  let ast = schema_ast::parser::parse_schema(&*input, &mut diagnostics);
+  serde_json::to_string(&ast).unwrap()
 }
