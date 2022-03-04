@@ -108,20 +108,5 @@
     "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
-  },
-  "optionalDependencies": {
-    "@stringke/mmg-win32-x64-msvc": "1.0.0",
-    "@stringke/mmg-darwin-x64": "1.0.0",
-    "@stringke/mmg-linux-x64-gnu": "1.0.0",
-    "@stringke/mmg-linux-x64-musl": "1.0.0",
-    "@stringke/mmg-linux-arm64-gnu": "1.0.0",
-    "@stringke/mmg-win32-ia32-msvc": "1.0.0",
-    "@stringke/mmg-linux-arm-gnueabihf": "1.0.0",
-    "@stringke/mmg-darwin-arm64": "1.0.0",
-    "@stringke/mmg-android-arm64": "1.0.0",
-    "@stringke/mmg-freebsd-x64": "1.0.0",
-    "@stringke/mmg-linux-arm64-musl": "1.0.0",
-    "@stringke/mmg-win32-arm64-msvc": "1.0.0",
-    "@stringke/mmg-android-arm-eabi": "1.0.0"
   }
 }
