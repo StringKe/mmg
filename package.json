@@ -1,6 +1,6 @@
 {
   "name": "@stringke/mmg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parser prisma schema to json (supprt @comment)",
   "main": "index.js",
   "repository": "git@github.com:StringKe/mmg.git",
